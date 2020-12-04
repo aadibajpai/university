@@ -6,12 +6,11 @@
 <script>
 async function onLoad() {
     let response = await fetch("https://uni.aadibajpai.workers.dev")
-        .then(resp => { 
+        .then(async (resp) => { 
             if (resp.ok) {
-                const uni = await resp.text()
-                return `r u from ${uni} bb`
-            }
-            else return "sadmoment nothing found"
+                const uni = await resp.text();
+                return `r u from ${uni} bb`;
+            } else return "sadmoment nothing found";
         })
         .catch(err => `something went fucky wucky ${err}`);
     document.getElementById("text").innerHTML = response;
