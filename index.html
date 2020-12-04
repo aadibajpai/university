@@ -6,8 +6,11 @@
 <script>
 async function onLoad() {
     let response = await fetch("https://uni.aadibajpai.workers.dev")
-        .then(resp => `r u from ${resp.text()} bb`)
-        .catch(err => "sadmoment nothing found");
+        .then(resp => { 
+            if (resp.ok) return `r u from ${resp.text()} bb`;
+            else return "sadmoment nothing found"
+        })
+        .catch(err => `something went fucky wucky ${err}`);
     document.getElementById("text").innerHTML = response;
 }
 
