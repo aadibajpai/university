@@ -1,4 +1,4 @@
-# university detection proof of concept
+# university request detection proof of concept
 
 find catchier title maybe
 
