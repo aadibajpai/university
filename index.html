@@ -7,7 +7,7 @@
 async function onLoad() {
     let response = await fetch("https://uni.aadibajpai.workers.dev")
         .then(resp => { 
-            if (resp.ok) return `r u from ${await resp.text()} bb`;
+            if (resp.ok) return `r u from ${(await resp.text())} bb`;
             else return "sadmoment nothing found"
         })
         .catch(err => `something went fucky wucky ${err}`);
