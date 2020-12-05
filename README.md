@@ -29,6 +29,11 @@ a university visitor is detected.
 
 Look at that [here](https://github.com/aadibajpai/my-website/blob/7a324aacc98563389bda868867fc17d7d20e1199/index.html#L341-L355).
 
+## Why?
+
+I thought about this last year while doing college applications. Was easier to implement than I expected and fun. 
+I think it has potential.
+
 ## Isn't this overkill?
 
 no u
