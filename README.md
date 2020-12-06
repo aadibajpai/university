@@ -27,7 +27,7 @@ See [index.html](index.html)
 I set it up for [my website](https://aadibajpai.com) too as a possible implementation to slightly modify text if
 a university visitor is detected. 
 
-Look at that [here](https://github.com/aadibajpai/my-website/blob/7a324aacc98563389bda868867fc17d7d20e1199/index.html#L341-L355).
+Look at that [here](https://github.com/aadibajpai/my-website/blob/721a8493c020cbed14fd875deec2714b53126af1/index.html#L341-L355).
 
 ## Why?
 
