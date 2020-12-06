@@ -1,6 +1,19 @@
-<html>
+<!DOCTYPE html>
+<head>
+    <title>proof of concept I guess</title>
+    <meta charset="utf-8">
+</head>
 <body>
-<p id="text">
+    <pre>
+    detect website requests from a university.
+    try it out, the text below will be different if you visit from a college, otherwise sadmoment.
+    
+    source: <a href="https://aadibajpai.com/gh/university">https://aadibajpai.com/gh/university</a>
+    api: <a href="https://uni.aadibajpai.workers.dev">https://uni.aadibajpai.workers.dev</a>
+    docs: <a href="https://aadibajpai.com/gh/university#api">https://aadibajpai.com/gh/university#api</a>
+    </pre>
+    <pre id="uni">
+    </pre>
 
 </body>
 <script>
@@ -8,10 +21,10 @@ async function onLoad() {
     let response = await fetch("https://uni.aadibajpai.workers.dev")
         .then(async (resp) => { 
             if (resp.ok) return `r u from ${(await resp.text())} bb`;
-            else return "sadmoment nothing found";
+            else return "✨sadmoment nothing found✨";
         })
         .catch(err => `something went fucky wucky ${err}`);
-    document.getElementById("text").innerHTML = response;
+    document.getElementById("uni").innerHTML += response;
 }
 
 if (document.readyState != 'loading'){
