@@ -18,7 +18,7 @@ Else, *404 not found*
 
 Eg. `{status: 200, "Columbia University"}` or `{status: 404, "not found"}`
 
-No rate limits or anything, go wild.
+No rate limits or anything, go wild. Okay, Cloudflare Workers have a limit of 100,000 requests a day so maybe keep that into account.
 
 ## Example Usage
 
