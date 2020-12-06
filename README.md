@@ -37,3 +37,7 @@ I think it has potential.
 ## Isn't this overkill?
 
 no u
+
+---
+
+Thanks to my friend [Nisala](https://github.com/nkalupahana) for help with making and testing this <3
