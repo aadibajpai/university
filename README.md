@@ -20,6 +20,8 @@ Eg. `{status: 200, "Columbia University"}` or `{status: 404, "not found"}`
 
 No rate limits or anything, go wild. Okay, Cloudflare Workers have a limit of 100,000 requests a day so maybe keep that into account.
 
+API source code: https://github.com/aadibajpai/university-worker
+
 ## Example Usage
 
 See [index.html](index.html)
