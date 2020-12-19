@@ -20,6 +20,8 @@ Eg. `{status: 200, "Columbia University"}` or `{status: 404, "not found"}`
 
 No rate limits or anything, go wild. Okay, Cloudflare Workers have a limit of 100,000 requests a day so maybe keep that into account.
 
+For requests made through a backend, you can pass the IP address in a `x-lookup-ip` header.
+
 API source code: https://github.com/aadibajpai/university-worker
 
 ## Example Usage
